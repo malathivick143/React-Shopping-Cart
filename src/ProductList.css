@@ -1,0 +1,218 @@
+/* p
+{
+    width:50%;
+    flex-wrap: wrap;
+    line-height: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    align-self: center; 
+
+    
+} */
+
+.ProdDisplaydivLeft{
+    display: inline-block;
+    min-height: 100vh;
+    width: 70%;
+   
+  
+}
+.ProdDisplaydiv
+{
+    display: flex;
+    margin-top:30px;
+
+  
+
+}
+.ProdImgDiv
+{
+    display: block;
+    width: 90%;
+    align-items: center;
+   
+}
+.prodImgTilesdiv
+{  
+    display: block;   
+    float: left;
+    /* background: Red; */
+    width: 10%;
+    /* align-content: center; */
+    /* margin:30px; */
+    height:700px;
+    margin-top:30px;
+
+    
+}
+.prodImgTilesdiv:hover
+{
+    cursor:pointer;
+}
+.prodImgDispdiv:hover
+{
+    cursor:crosshair;
+}
+
+.prodImgTilesdiv >img 
+{  
+   
+    max-width: 90%;
+    margin:10px;
+    height: 100px;
+    display: table-row;  
+ 
+}
+
+
+.prodImgDispdiv
+{
+  
+    position: relative;
+    float: left;
+    /* background: Green; */
+    width: 90%;
+    height: 100%
+   
+   
+}
+.prodImgDispdiv>img
+{
+
+max-width: 100%;
+align-content: center;
+vertical-align: top;
+margin:10px;
+
+
+    
+}
+
+.magnifier {
+    /* Styles for the magnifier wrapper */
+    width: 500px; /* Adjust as needed */
+    height: 300px; /* Adjust as needed */
+  }
+  
+  .magnifier img {
+    /* Styles for the image */
+    max-width: 100%;
+    max-height: 100%;
+  }
+.prodSizeDiv
+{
+    position: relative;
+    width: 92%;
+    float: left;
+    align-items: right;
+    margin-left:10px;
+}
+.prodSizeDesc
+{
+    margin-top:30px;
+    margin-left: 100px;
+}
+.prodSizeDesc>img
+{
+    display: none;
+ 
+    margin:20px;
+   
+    width: 100px;
+}
+.prodInfoDispdiv
+{
+
+position:relative;
+display: inline-block;
+
+  
+ 
+   line-height:35px;
+  
+    width: 30%;
+    margin: 10px;
+    margin-top:30px;
+
+    /* align-content: center; */
+    /* vertical-align: middle; */
+    /* background: blue; */
+    
+}
+
+.toggledivSizeChart
+{
+    float:right;
+    width: 80%;
+}
+#prodDescPara
+{
+    margin:10px;
+    width:400px;
+}
+.select-listbox
+{
+    display: grid;
+}
+.Prodinfodd 
+{
+    border:none;
+    outline: none;
+}
+.inputQtyChosen
+{
+ text-align: center;
+ width: 50px;
+ border: none;
+}
+.inputQtyChosen:focus
+{
+
+ border: none;
+}
+
+
+
+.select-wrapper-in
+{
+    width:200px;   
+    height:270px;
+    background-color:rgb(252, 246, 246);
+    position:absolute;
+    border: 1px solid rgb(252, 246, 246);
+    margin-left: -220px;
+    margin-top: -120px;
+    padding-top :20px;
+    display:grid;
+    line-height: 20PX;
+    
+}
+
+.select-wrapper-in::after {
+    content:"";
+    border-color: rgb(252, 246, 246) transparent transparent transparent;
+    border-style:solid;
+    border-width:10px;
+    width:3px;
+    height:0;
+    position:absolute;
+    right:-11px;
+    top:100px;
+    font:grey
+    
+}
+
+.select-wrapper-in>li:hover
+{
+    font-weight:bold;
+    cursor:pointer;
+}
+
+#btnBuyGroup > link
+{
+    display:grid;
+    width: 800px;
+    align-items: left;
+    margin:30px;
+    row-gap: 40px;
+}

@@ -1,0 +1,62 @@
+/* p
+{
+    width:50%;
+    flex-wrap: wrap;
+    line-height: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    align-self: center; 
+} */
+.ProdDisplaydiv
+{
+    display: flex;
+    
+
+}
+.collImgDispdiv
+{  
+    display: flex;   
+    /* background: Red; */
+     
+    margin:30px;
+    
+   
+    flex-wrap: wrap;
+
+    
+}
+.collNameHead
+{
+    margin-top: 320px;
+    margin-left: 30PX;
+    margin-bottom: 30PX;
+   
+    color:white;
+}
+.collViewBtn
+{
+    margin-left: 20PX;
+}
+
+
+.collTileImg
+{  
+    margin: 20px;
+    height: 400px;  /* Set the desired height */
+    width: 400px;  /* Set the desired width */
+    object-fit: cover;
+ 
+   
+ 
+}
+.btnOnCollTileImage
+{
+  
+    height: 300;
+    justify-content: center;
+    margin: 20px;
+    height: 400px;  /* Set the desired height */
+    width: 400px;  /* Set the desired width */
+    object-fit: cover;  
+    
+}

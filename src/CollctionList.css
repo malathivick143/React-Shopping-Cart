@@ -1,0 +1,77 @@
+/* p
+{
+    width:50%;
+    flex-wrap: wrap;
+    line-height: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    align-self: center; 
+} */
+.ProdDisplaydiv
+{
+    display: inline-block;
+    min-height: 100vh;
+
+}
+.prodImgTilesdiv
+{  
+    display: block;   
+    float: left;
+    /* background: Red; */
+    width: 10%;
+    align-content: center;
+    margin:30px;
+    height:700px;
+
+    
+}
+
+
+
+.prodImgTilesdiv >img 
+{  
+   
+    max-width: 90%;
+    margin:20px;
+    height: 100px;
+   
+ 
+}
+
+.prodImgDispdiv
+{
+  
+    position: relative;
+    float: left;
+    /* background: Green; */
+    width: 40%;
+    min-height: 100vh;
+    margin:30px
+}
+.prodImgDispdiv>img
+{
+
+max-width: 90%;
+
+align-content: center;
+vertical-align: middle;
+margin:20px;
+    
+}
+.prodInfoDispdiv{
+
+   margin-top:50px;
+   margin-right:28px;
+   line-height:35px;
+    float: right;
+    width: 40%;
+    height: 700px;
+    align-content: center;
+    vertical-align: middle;
+    /* background: blue; */
+    
+}
+#prodDescPara
+{
+    margin:10px;
+}

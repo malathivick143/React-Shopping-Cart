@@ -1,0 +1,37 @@
+.contactMainDiv
+{   
+
+    /* margin:10px;
+    padding: 10px;;
+    height: 100vh;
+    width: 100vw; */
+    /* display: flex;
+    flex-flow: column nowrap;
+    height: 80%; */
+    /* background:url('./Images/bgrdImg2.webp');  */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    top:50px;
+  
+ 
+    
+   
+    color:black;
+    font-size: 20px;
+    font-family: sans-serif;
+    flex-wrap: wrap;
+   
+
+
+  
+}
+.contactMainDiv>p
+{
+
+    margin-top: 0px;
+    margin-left: 50px;
+line-height: 40px;
+
+
+}

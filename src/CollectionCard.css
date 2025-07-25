@@ -1,0 +1,40 @@
+
+ul >li
+ { display: inline; }
+.card-container-coll{
+   
+    margin-left:60px;
+    margin-top:80px;
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    display:inline-block;
+    align-items: center;
+  
+    
+  
+}
+.card-container-coll>img
+{
+    max-width: 100%;
+    height:100%;
+
+}
+a >img
+{
+    max-width: 100%;
+    height:100%;
+}
+
+.card-container-coll>button{
+    border-radius: 10px;
+   }
+
+.card-containner-coll>p{
+    font-family: sans-serif;
+    margin:0;
+    color:hsl(hue, saturation, lightness);
+    align-content: center;
+    width: 100%;
+   }
+

@@ -1,0 +1,73 @@
+.maindivHome
+{
+    color:white;
+    /* margin:10px;
+    padding: 10px;;
+    height: 100vh;
+    width: 100vw; */
+    /* display: flex;
+    flex-flow: column nowrap;
+    height: 80%; */
+    /* background:url('./Images/bgrdImg2.webp');  */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    background-position: center center;
+    overflow: auto;
+    position: relative;
+
+    /* min-height: 100vh;
+   
+    flex-direction: column; */
+    /* width: 100vw;
+    display: grid; */
+   
+
+}
+.galleryImg
+{
+    animation: fadeIn 2s ease-in-out forwards;
+}
+
+
+.galleryImgDivHome
+{ 
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-top:40px;
+    margin-bottom: 0px;;
+    margin-left: 70px;
+    margin-right: 50px;
+}
+
+.galleryImgDivHome > img
+{   position: relative;
+    display: inline-block;   
+    width: 50%;
+  
+ 
+  
+   
+}
+.galleryImgDivHome > p
+{
+    width:50%;
+    display: flex;
+    line-height: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    align-self: center; 
+    color: black;
+}
+
+@keyframes fadeIn {
+
+    from { opacity: 0; }
+  
+    to { opacity: 1; }
+  
+  }

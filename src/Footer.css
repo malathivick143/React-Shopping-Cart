@@ -1,0 +1,44 @@
+.maindivFooter{
+    
+    bottom: 0; 
+   
+    height: 150px;
+    /* position: fixed; */
+    flex-wrap: wrap;
+
+    line-height: 40px;
+  
+    align-self: center;
+    color: black;
+}
+
+#abtshotpPara
+{
+    align-self: center;
+    margin-left: 50px;
+    flex-wrap: wrap;
+    width: 1200px;
+    font-size: large;
+    font-style: bold;
+    color:black;
+}
+
+#footerPara
+{
+    
+    align-self: center;
+    margin-left: 50px;
+    flex-wrap: wrap;
+    width: 1200px;
+    color:black(159, 154, 154);
+    
+
+}
+#cprigthtPara
+{
+    color:rgb(139, 134, 134);
+    margin-left: 50px;
+}
+hr{
+    color: grey;
+}
