@@ -1,5 +1,5 @@
 import React from 'react';
-import './about.css';
+import './About.css';
 import galImg1 from './Images/Aboutus.webp'
 
  
