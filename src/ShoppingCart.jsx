@@ -5,6 +5,8 @@ import { CartContext } from './CartContext';
 
 
 
+
+
 function ShoppingCart() 
 {
   const [qtyChosen, setQuantity] = useState(1); // Initial selected Quantity

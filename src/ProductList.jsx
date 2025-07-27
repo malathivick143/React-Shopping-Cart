@@ -166,7 +166,7 @@ const handleOpenNewTab = () => {
 
   
  useEffect(() => {
-    fetch(`/src/Products.json`)
+    fetch(`/Products.json`)
     
       .then(response => {
         if (!response.ok) {

@@ -1,0 +1,48 @@
+[
+    {
+      
+      "cid":1,
+     
+      "cname":"KHAAWISH",
+      "images": ["kHAWISH.webp"]
+      
+   },
+   {
+      
+    "cid":2,
+   
+    "cname":"RAHAH",
+    "images": ["CollectionTileImage4.webp"]
+    
+ },
+ {
+      
+    "cid":3,
+   
+    "cname":"JANNAH",
+    "images": ["CollectionTileImage1.webp"]
+    
+ },
+ {
+      
+    "cid":4,   
+    "cname":"Whatrehwears",
+    "images": ["image1-1.webp"]
+    
+ },
+ {
+      
+   "cid":5,   
+   "cname":"SABR",
+   "images": ["CollectionTileImage3.webp"]
+   
+},
+{
+      
+   "cid":6,   
+   "cname":"Mirage",
+   "images": ["CollectionTileImage2.webp"]
+   
+}
+]
+   
