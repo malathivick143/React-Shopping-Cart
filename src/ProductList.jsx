@@ -5,6 +5,12 @@ import { useParams } from 'react-router-dom';
 import {Link} from 'react-router-dom';
 import { CartContext } from './CartContext';
 
+import Zoom from 'react-medium-image-zoom'
+import 'react-medium-image-zoom/dist/styles.css'
+
+
+
+
 
 
 
@@ -203,15 +209,17 @@ const handleOpenNewTab = () => {
           <div className='prodImgDispdiv'
         >
           {/* <img  onClick={()=>openProdImgInNewWindow(window.location.url)} src={"/src/Images/" + foundObject.images[currentImage]} alt="Thumbnail" /> */}
-            <a href={"/src/Images/" + foundObject.images[currentImage]} target='_blank' 
+            {/* <a href={"/src/Images/" + foundObject.images[currentImage]} target='_blank' 
     rel="noopener noreferrer"
    
-  >
+  > */}
+  <Zoom>
             <img   src={"/src/Images/" + foundObject.images[currentImage]} 
              alt="Zoom"
       style={{ width: '100%', maxWidth: '1500px' }}
         />
-            </a>  
+        </Zoom>
+            {/* </a>   */}
           
           </div>
         </div>
