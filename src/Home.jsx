@@ -1,5 +1,5 @@
 import React from 'react';
-import './home.css';
+import './Home.css';
 import galImg1 from './Images/kHAWISH.webp';
 import galImg2 from './Images/Anarkali.webp';
 import galImg3 from './Images/HomePic2.jpg';
