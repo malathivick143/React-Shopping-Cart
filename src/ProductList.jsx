@@ -6,8 +6,10 @@ import {Link} from 'react-router-dom';
 import { CartContext } from './CartContext';
 
 
+
+
 // import {ImageZoom , Controlled as ControlledZoom } from 'react-medium-image-zoom';
-import "react-medium-image-zoom/dist/styles.css"
+// import "react-medium-image-zoom/dist/styles.css"
 // import InnerImageZoom from 'react-inner-image-zoom';
 // import 'react-inner-image-zoom/lib/InnerImageZoom/styles.css';
 
@@ -36,6 +38,7 @@ function ProductList() {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedValue, setSelectedValue] = useState('');
   const [isszChartVisible, setIsszChartVisible] = useState(true);
+  const [zoom, setZoom] = useState(false);
   const selectId = 'my-select';
   const listboxId = 'my-select-listbox';
 
@@ -197,10 +200,17 @@ const handleOpenNewTab = () => {
             <img src={"/src/Images/" + foundObject.images[1]} alt="galImg2" onClick={e => setCurrentIamge(1)} />
             <img src={"/src/Images/" + foundObject.images[2]} alt="galImg3" onClick={e => setCurrentIamge(2)} />
           </div>
-          <div className='prodImgDispdiv'>
+          <div className='prodImgDispdiv'
+        >
           {/* <img  onClick={()=>openProdImgInNewWindow(window.location.url)} src={"/src/Images/" + foundObject.images[currentImage]} alt="Thumbnail" /> */}
-            <a href={"/src/Images/" + foundObject.images[currentImage]} target='blank'  style={{width: '1800vw', height: '2200px'}} >
-            <img   src={"/src/Images/" + foundObject.images[currentImage]} alt="Thumbnail" />
+            <a href={"/src/Images/" + foundObject.images[currentImage]} target='_blank' 
+    rel="noopener noreferrer"
+   
+  >
+            <img   src={"/src/Images/" + foundObject.images[currentImage]} 
+             alt="Zoom"
+      style={{ width: '100%', maxWidth: '1500px' }}
+        />
             </a>  
           
           </div>
