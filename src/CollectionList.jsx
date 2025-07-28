@@ -56,9 +56,9 @@ function CollectionList() {
     <div key={foundObject.pid} className='card-container-coll'>
                 
                 <Link to={`/ProductList/${foundObject.pid}`}>
-                 <img src={"/src/Images/" +foundObject.images[0]} alt="galImg2" 
-                  onMouseOver={e => (e.currentTarget.src =("/src/Images/"+foundObject.images[1]))}
-                  onMouseOut={e => (e.currentTarget.src =("/src/Images/"+foundObject.images[0]))} />
+                 <img src={"/Images/" +foundObject.images[0]} alt="galImg2" 
+                  onMouseOver={e => (e.currentTarget.src =("/Images/"+foundObject.images[1]))}
+                  onMouseOut={e => (e.currentTarget.src =("/Images/"+foundObject.images[0]))} />
                 </Link>
                  <br></br><br></br><br></br>
                  {foundObject.pname} <br></br> {"INR:"+ foundObject.pprice} 

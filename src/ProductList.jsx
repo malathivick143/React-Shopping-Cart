@@ -202,21 +202,20 @@ const handleOpenNewTab = () => {
       <div  className='ProdDisplaydivLeft'>
         <div ref={divRef} className='ProdImgDiv'>
           <div className='prodImgTilesdiv'>
-            <img src={"/src/Images/" + foundObject.images[0]} alt="galImg1" onClick={e => setCurrentIamge(0)} />
-            <img src={"/src/Images/" + foundObject.images[1]} alt="galImg2" onClick={e => setCurrentIamge(1)} />
-            <img src={"/src/Images/" + foundObject.images[2]} alt="galImg3" onClick={e => setCurrentIamge(2)} />
+            <img src={"/Images/" + foundObject.images[0]} alt="galImg1" onClick={e => setCurrentIamge(0)} />
+            <img src={"/Images/" + foundObject.images[1]} alt="galImg2" onClick={e => setCurrentIamge(1)} />
+            <img src={"/Images/" + foundObject.images[2]} alt="galImg3" onClick={e => setCurrentIamge(2)} />
           </div>
-          <div className='prodImgDispdiv'
-        >
+          <div className='prodImgDispdiv'>
           {/* <img  onClick={()=>openProdImgInNewWindow(window.location.url)} src={"/src/Images/" + foundObject.images[currentImage]} alt="Thumbnail" /> */}
             {/* <a href={"/src/Images/" + foundObject.images[currentImage]} target='_blank' 
     rel="noopener noreferrer"
    
   > */}
   <Zoom>
-            <img   src={"/src/Images/" + foundObject.images[currentImage]} 
+            <img   src={"/Images/" + foundObject.images[currentImage]} 
              alt="Zoom"
-      style={{ width: '100%', maxWidth: '1500px' }}
+      style={{ width: '80%', maxWidth: '2500px' }}
         />
         </Zoom>
             {/* </a>   */}
@@ -256,8 +255,8 @@ const handleOpenNewTab = () => {
             <div className="toggledivSizeChart">
               {isszChartVisible && <div className="prodSizeDescInner">
 
-                <img src={"/src/Images/Size_chart_top.webp"} alt="Thumbnail" />
-                <img src={"/src/Images/Size_chart_bottom.webp"} alt="Thumbnail" />
+                <img src={"/Images/Size_chart_top.webp"} alt="Thumbnail" />
+                <img src={"/Images/Size_chart_bottom.webp"} alt="Thumbnail" />
 
 
               </div>}

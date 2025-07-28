@@ -61,9 +61,9 @@ const handleImageMouseLeave=()=>
         <div key={product.pid} className='card-container-coll'>
             
             <Link className='prodLink' to={`/ProductList/${product.pid}`}>
-             <img className="shopListImgs" src={"/src/Images/" +product.images[0]} alt="galImg2"  
-               onMouseOver={e => (e.currentTarget.src =("/src/Images/"+product.images[1]))}
-              onMouseOut={e => (e.currentTarget.src =("/src/Images/"+product.images[0]))}  />
+             <img className="shopListImgs" src={"/Images/" +product.images[0]} alt="galImg2"  
+               onMouseOver={e => (e.currentTarget.src =("/Images/"+product.images[1]))}
+              onMouseOut={e => (e.currentTarget.src =("/Images/"+product.images[0]))}  />
              </Link>
              <br></br><br></br><br></br>
              {product.pname} <br></br> {product.pprice} 

@@ -52,7 +52,7 @@ const qtyDecrement = () => {
             <div key={`${item.pid}-${item.size}`}>
               <div className="CartProduct">
                 <Link className='CartProductLink' to={`/ProductList/${item.pid}`}>
-                  <img className='CartProductImg' src={"/src/Images/" + item.images[0]} alt={item.pname} />
+                  <img className='CartProductImg' src={"/Images/" + item.images[0]} alt={item.pname} />
                 </Link>
 
                 <p> {item.pname}  {' / '}  {item.size}</p>

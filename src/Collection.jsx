@@ -70,7 +70,7 @@ import './CollectionList';
             <div className='collImgDispdiv'>
             {/* <img className="collTileImg" src={"/src/Images/" + collection.images[0]} alt="galImg1"  /> */}
           {/* </div> */}
-              <div className='btnOnCollTileImage'   style={{backgroundSize: 'cover',width: 350, height: 450, backgroundImage: `url("${"/src/Images/" + collection.images[0]}")` }} >
+              <div className='btnOnCollTileImage'   style={{backgroundSize: 'cover',width: 350, height: 450, backgroundImage: `url("${"/Images/" + collection.images[0]}")` }} >
                                                 
                 <h6 className='collNameHead'>{collection.cname}</h6>
                  <Link to={`/CollectionList/${collection.cid}`}>
