@@ -27,7 +27,7 @@ import './CollectionList';
   
     
  useEffect(() => {
-    fetch(`/src/Collection.json`)
+    fetch(`/Collection.json`)
       .then(response => {
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response}`);

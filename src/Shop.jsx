@@ -23,7 +23,7 @@ const handleImageMouseLeave=()=>
   }
   
   useEffect(() => {
-    fetch('/src/Products.json')
+    fetch('/Products.json')
       .then(response => {
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
